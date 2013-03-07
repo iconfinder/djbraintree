@@ -1,17 +1,17 @@
 Braintree for Django
 ====================
 
-``django_braintree`` easily integrates the official `Braintree Python client library <https://github.com/braintree/braintree_python>`_ into your Django applications by allowing easy configuration from your Django settings.
+``djbraintree`` easily integrates the official `Braintree Python client library <https://github.com/braintree/braintree_python>`_ into your Django applications by allowing easy configuration from your Django settings.
 
 
 Quick start
 -----------
 
-1.  Install ``django_braintree`` from PyPI:
+1.  Install ``djbraintree`` from PyPI:
 
     ::
     
-       $ pip install django_braintree
+       $ pip install djbraintree
 
 2.  Update your project's ``settings.py``:
 
@@ -24,7 +24,7 @@ Quick start
        
        TEMPLATE_CONTEXT_PROCESSORS = (
            ..
-           'django_braintree.context_processsors.braintree_client_side_encryption_key',
+           'djbraintree.context_processsors.braintree_client_side_encryption_key',
        )
        
        import braintree

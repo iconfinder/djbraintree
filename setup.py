@@ -1,15 +1,15 @@
 from setuptools import setup
 
 setup(
-    name='djrill',
+    name='djbraintree',
     version='0.1.0',
     description='Braintree for Django',
     keywords='django, braintree',
     author='Nick Bruun <nick@bruun.co>',
     author_email='nick@bruun.co',
-    url='https://github.com/iconfinder/django_braintree',
+    url='https://github.com/iconfinder/djbraintree',
     license='BSD License',
-    packages=['django_braintree'],
+    packages=['djbraintree'],
     zip_safe=False,
     install_requires=['braintree', 'django'],
     include_package_data=True,
